@@ -1,4 +1,10 @@
 Fivethings::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/tracker"
+
+  get "pages/consequences"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
